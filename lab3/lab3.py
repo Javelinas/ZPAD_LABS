@@ -83,5 +83,6 @@ class lab(server.App):
         return fig
     
 if __name__ == "__main__":
+    print('Done')
     app = lab()
     app.launch()
